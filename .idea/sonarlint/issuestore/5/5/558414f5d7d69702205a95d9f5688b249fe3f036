@@ -1,0 +1,43 @@
+
+Jjavascript:S3504")Unexpected var, use let or const instead.(ËÊ¯Áûÿÿÿÿ
+7javascript:S1116"Unnecessary semicolon.(ôŸìúÿÿÿÿ
+7javascript:S1116"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Jjavascript:S3504")Unexpected var, use let or const instead.(¶‚ĞÊÿÿÿÿÿ
+]javascript:S1481"<Remove the declaration of the unused 'currentYear' variable.(¶‚ĞÊÿÿÿÿÿ
+Zjavascript:S1854"9Remove this useless assignment to variable "currentYear".(¶‚ĞÊÿÿÿÿÿ
+7javascript:S1116'"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+7javascript:S1116;"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Jjavascript:S3504=")Unexpected var, use let or const instead.(¢ÈÃ®ıÿÿÿÿ
+7javascript:S1116L"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+7javascript:S1116X"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Jjavascript:S3504Z")Unexpected var, use let or const instead.(¢ÈÃ®ıÿÿÿÿ
+7javascript:S1116k"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+qjavascript:S3776l"URefactor this function to reduce its Cognitive Complexity from 106 to the 15 allowed.(‹ùœÉ
+]javascript:S2137l"ADo not use "undefined" to declare a parameter - use another name.(‹ùœÉ
+Ejavascript:S3504m")Unexpected var, use let or const instead.(¡²ÍÖ
+Ejavascript:S3504r")Unexpected var, use let or const instead.(éâ¹À
+ujavascript:S5850y"TGroup parts of the regex together to make the intended operator precedence explicit.( ªÒğÿÿÿÿÿ
+Kjavascript:S3504Š")Unexpected var, use let or const instead.(ÎŞ‹Úøÿÿÿÿ
+Fjavascript:S3504™")Unexpected var, use let or const instead.(ùÓ³ò
+Kjavascript:S3504Ÿ")Unexpected var, use let or const instead.(Ü“§¨şÿÿÿÿ
+Fjavascript:S3504©")Unexpected var, use let or const instead.(ÅÓ¶‰
+Fjavascript:S3504·")Unexpected var, use let or const instead.(æÃÄŞ
+Kjavascript:S3504¹")Unexpected var, use let or const instead.(¨í»ãüÿÿÿÿ
+Tjavascript:S1481½"2Remove the declaration of the unused 'h' variable.(Şç¸®ûÿÿÿÿ
+Qjavascript:S1854½"/Remove this useless assignment to variable "h".(Şç¸®ûÿÿÿÿ
+Ujavascript:S1481½"3Remove the declaration of the unused 'mh' variable.(Şç¸®ûÿÿÿÿ
+Rjavascript:S1854½"0Remove this useless assignment to variable "mh".(Şç¸®ûÿÿÿÿ
+Fjavascript:S3504À")Unexpected var, use let or const instead.(ÅÓ¶‰
+Rjavascript:S1121Â"5Extract the assignment of "url" from this expression.(í«ìæ
+ajavascript:S3358Î"DExtract this nested ternary operation into an independent statement.(–Æï
+ajavascript:S3358Ù"DExtract this nested ternary operation into an independent statement.(úèÊÇ
+Fjavascript:S3504î")Unexpected var, use let or const instead.(ù÷İ
+Ijavascript:S1117î",'mh' is already declared in the upper scope.(ù÷İ
+Mjavascript:S1117ï"+'h' is already declared in the upper scope.(“¥“³üÿÿÿÿ
+fjavascript:S3358ñ"DExtract this nested ternary operation into an independent statement.(öÔúÎıÿÿÿÿ
+8javascript:S1116ş"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Kjavascript:S3504€")Unexpected var, use let or const instead.(§Â§´øÿÿÿÿ
+8javascript:S1116"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Fjavascript:S3504")Unexpected var, use let or const instead.(ñ­˜Ê
+8javascript:S1116 "Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Fjavascript:S3504¢")Unexpected var, use let or const instead.(¼ÕË§

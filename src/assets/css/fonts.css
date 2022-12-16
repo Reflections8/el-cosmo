@@ -1,0 +1,43 @@
+/*FIRA SANS*/
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/../fonts/FiraSans/FiraSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/../fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/../fonts/FiraSans/FiraSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/../fonts/FiraSans/FiraSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+}
+
+/*OLIETTA SCRIPT*/
+@font-face {
+  font-family: 'Olietta Script Lyrica';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/../fonts/OliettaScriptLyrica/oliettascriptlyrica_bolditalic.ttf') format('truetype');
+}

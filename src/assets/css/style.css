@@ -1,0 +1,556 @@
+@import "fonts.css";
+/*<----------GLOBAL STYLES---------->*/
+body {
+  font-family: 'Fira Sans', sans-serif !important;
+  background-color: #232121;
+}
+
+.btn-common {
+  font-family: 'Fira Sans', sans-serif !important;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100%;
+  max-width: 180px;
+  min-height: 52px;
+  text-decoration: none;
+  color: white;
+  background: #E3311D;
+  box-shadow: inset 0 -4px 4px rgba(0, 0, 0, 0.46);
+  border-radius: 12px;
+  letter-spacing: 0.055em;
+}
+
+.btn-common:hover {
+  color: white;
+  background: #C11D0A;
+}
+
+.btn-common:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-common {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+/*<----------SECTIONS (GLOBAL)---------->*/
+.section {
+  padding: 3.5% 0;
+  color: #ffffff;
+}
+
+.h2--red {
+  font-family: 'Olietta Script Lyrica';
+  font-size: 64px;
+  color: #E3311D;
+}
+
+@media screen and (max-width: 768px) {
+  .h2--red {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .h2--red {
+    font-size: 32px;
+  }
+}
+
+
+/*<----------HEADER---------->*/
+.header-wrapper {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.row--header {
+  height: 70px;
+}
+
+.header-nav {
+  gap: 22px;
+}
+
+.header-nav__item {
+  font-weight: 600;
+  letter-spacing: 0.065em;
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav__item:hover {
+  color: #C11D0A;
+}
+
+/*<----------INTRO---------->*/
+.section--intro {
+  background-image: url("/src/images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 991px) {
+  .section--intro {
+    height: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section--intro {
+    background-image: url("/src/images/intro-bg-768.jpg");
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section--intro {
+    background-image: url("/src/images/intro-bg-480.jpg");
+  }
+}
+
+.intro-heading {
+  font-family: 'Olietta Script Lyrica';
+}
+
+.h1-intro-wrapper {
+  margin-bottom: 15%;
+}
+
+.h1 {
+  font-size: 114px;
+}
+
+.h1-subtitle {
+  color: #E3311D;
+  font-size: 74px;
+}
+
+@media screen and (max-width: 991px) {
+  .h1 {
+    font-size: 74px;
+  }
+
+  .h1-subtitle {
+    font-size: 48px;
+  }
+}
+
+.btn--intro {
+  max-width: 180px;
+}
+
+.intro-benefits__text {
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 575px) {
+  .intro-benefits__img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .h1 {
+    font-size: 64px;
+  }
+
+  .h1-subtitle {
+    font-size: 42px;
+  }
+}
+
+
+/*<----------MODAL FORM---------->*/
+.modal-form-outer {
+  max-width: 750px;
+}
+
+.modal-form-wrapper {
+  border-radius: 15px;
+  padding: 40px 80px;
+  background-image: url("/src/images/modal-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  gap: 22px;
+}
+
+.modal-form-btn {
+  color: #E3311D;
+}
+
+.h2--modal {
+  font-size: 2.5rem;
+}
+
+.modal-form-text {
+  max-width: 400px;
+  line-height: 2;
+}
+
+.btn--modal-close {
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.btn--modal-form {
+  border: none;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.modal-form-item {
+  gap: 12px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.modal-form__input {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.modal-form__input:valid {
+  border: 2px solid #E3311D;
+}
+
+.modal-form__textarea {
+  max-height: 130px;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.modal-form__input:valid, modal-form__textarea:valid {
+  border: 2px solid #E3311D;
+}
+
+/*<----------MAIN DESCRIPTION---------->*/
+.section--main-description {
+  padding: 5% 0;
+}
+
+.main-description__img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.h2--main-description {
+  font-family: 'Olietta Script Lyrica';
+  font-size: 40px;
+}
+
+.btn--main-description {
+  max-width: 180px;
+}
+
+/*<----------BUTTONS SECTION---------->*/
+.section--buttons {
+  background-image: url("/src/images/buttons-section-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 7.5%;
+}
+
+.buttons-block__item {
+  background: linear-gradient(179.66deg, #931E11 56.26%, rgba(255, 154, 142, 0) 99.7%);
+  padding: 35px 0;
+  border-radius: 40px;
+}
+
+.buttons-block__img {
+  max-width: 140px;
+  height: auto;
+}
+
+.btn--buttons-section {
+  margin-top: 30px;
+}
+
+/*<----------PHRASE SECTION---------->*/
+.section--phrase {
+  background-image: url("/src/images/phrase-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7.5% 0;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*<----------READ MORE SECTION---------->*/
+.section--read-more {
+  background: #000000;
+}
+
+.read-more__info {
+  padding-right: 5%;
+}
+
+.read-more__img {
+  max-width: 100%;
+}
+
+.read-more__suptitle, .h2--read-more {
+  font-weight: 500;
+  font-size: 24px;
+  color: #E3311D;
+}
+
+.read-more__suptitle {
+  margin-bottom: 20px;
+}
+
+.h2--read-more {
+  margin-bottom: 20px;
+}
+
+.btn--read-more {
+  max-width: 230px;
+  margin: auto 0 40px auto;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .btn--read-more {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn--read-more {
+    right: 50%;
+    bottom: 190px;
+    transform: translateX(50%);
+  }
+}
+
+/*<----------REVIEWS SECTION---------->*/
+.reviews-slider {
+  padding: 0 10% 8% 10%;
+}
+
+.reviews-slider__arrow {
+  width: 80px;
+  height: 80px;
+  background: #050507;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 575px) {
+  .reviews-slider__arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reviews-slider__arrow-img {
+    max-width: 60%;
+  }
+
+  .carousel-control-prev {
+    left: 10px;
+  }
+
+  .carousel-control-next {
+    right: 10px;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #585858;
+}
+
+.carousel-item {
+  padding: 0 16px;
+  letter-spacing: 0.08em;
+}
+
+.carousel-item__img {
+  display: block;
+  margin-left: auto;
+}
+
+.carousel-item__name {
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.carousel-item__player {
+  margin-top: auto;
+}
+
+.carousel-item__player audio {
+  margin-top: auto;
+  max-width: 380px;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-item__player audio {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/*<----------CHOOSE AND BUY SECTION---------->*/
+.section--choose-and-buy {
+  background-image: url("/src/images/choose-and-buy-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7.5% 0;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.btn--choose-and-buy {
+  margin-top: 5%;
+  max-width: 250px;
+}
+
+/*<----------LAST SECTION---------->*/
+.section--last {
+  background-color: #000000;
+  padding: 8% 0 5% 0;
+}
+
+.last-section__img {
+  width: 90%;
+}
+
+.last-section__text {
+  margin-bottom: 20%;
+}
+
+.last-section__btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: end;
+  gap: 40px;
+  width: 170px;
+}
+
+@media screen and (max-width: 575px) {
+  .last-section__img {
+    width: 100%;
+  }
+
+  .last-section__text {
+    margin-bottom: 5%;
+  }
+
+  .btn--last {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+}
+
+/*<----------FOOTER---------->*/
+.footer-wrapper {
+  background-color: #232121;
+  font-family: 'Roboto';
+  letter-spacing: 0.08em;
+  padding: 5% 0 1% 0;
+}
+
+.footer__logo {
+  display: block;
+}
+
+@media screen and (max-width: 575px) {
+  .footer__logo {
+    margin: 0 auto;
+  }
+}
+
+.footer-item__title {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.footer-item__info {
+  color: #E3311D;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-item__info--politics {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer-item__info--politics {
+    position: static;
+  }
+}
+
+.footer-item__link {
+  text-decoration: none;
+  color: #E3311D;
+}
+
+.footer-item__link:hover {
+  color: #C11D0A;
+}
+
+.rights-reserved-wrapper {
+  height: 80px;
+  background: #050507;
+  color: white;
+  letter-spacing: 0.08em;
+}
+
+
+/*<----------NAVBAR---------->*/
+.rd-navbar-static .rd-navbar-inner .rd-navbar-panel {
+  display: none;
+}
+
+.rd-navbar-outer {
+  height: 70px;
+  padding-top: 12px;
+}
+
+.rd-navbar-fixed .rd-navbar-panel-canvas {
+  background: #050507 !important;
+}
+
+
+
+
